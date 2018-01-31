@@ -1,1 +1,57 @@
-<h2>This is test</h2>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>News of The Day App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css"  crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Handlee|Permanent+Marker|Sacramento" rel="stylesheet">
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Handlee|Permanent+Marker|Sacramento');
+  body{
+    margin-top: 20px;
+  }
+  h1{
+    font-family: 'Handlee', cursive;
+  }
+  .newsbody{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+  }
+  #author_name{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+    transition: 1s;
+  }
+  .btn{
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 align-self-center">
+        <h1>News of the Day<h1>
+          <h2 id="newsbody" class="newsbody"></h2>
+          <p id="author_name"></p>
+        <hr>
+        <button class="btn btn-success" id="read_news">Show me the News</button>
+        <a disabled class="btn btn-info pull-right" id="tweet" href="#">Tweet</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="main.js" charset="utf-8"></script> -->
+
+
+  <script src="main.js"></script>
+</body>
+</html>
