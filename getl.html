@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 </head>
 <body>
 <script>
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(showPosition, showError);
-    }
-    function showPosition(position) {
-        console.log('Hello World');
-    }
-    function showError(error) {
-      switch(error.code) {
-        case error.PERMISSION_DENIED:
-          break;
-        case error.POSITION_UNAVAILABLE:
-          break;
-        case error.TIMEOUT:
-          break;
-        case error.UNKNOWN_ERROR:
-          break;
-      }
-    }
-    </script>
-    </body>
-    </html>
+  navigator.geolocation.getCurrentPosition(showPosition, showError);
+}
+function showPosition(position) {
+  alert(position.coords.latitude, position.coords.longitude);
+}
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      break;
+    case error.POSITION_UNAVAILABLE:
+      break;
+    case error.TIMEOUT:
+      break;
+    case error.UNKNOWN_ERROR:
+      break;
+  }
+}
+</script>
+</body>
+</html>
