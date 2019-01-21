@@ -8,9 +8,7 @@
       navigator.geolocation.getCurrentPosition(showPosition, showError);
     }
     function showPosition(position) {
-        $.ajax({url: "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude, success: function(result){
-      $("#div1").html(result);
-    }});
+        window.location.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude;
     }
     function showError(error) {
       switch(error.code) {
