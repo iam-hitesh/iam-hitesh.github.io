@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<head>
-</head>
+<html>
 <body>
+
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
 <script>
-if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(showPosition, showError);
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
 }
+
 function showPosition(position) {
-  var lang = position.coords.latitude;
-  var long = position.coords.longitude;
-  window.location.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+lang+"&&long="+long;
-}
-function showError(error) {
-  switch(error.code) {
-    case error.PERMISSION_DENIED:
-      break;
-    case error.POSITION_UNAVAILABLE:
-      break;
-    case error.TIMEOUT:
-      break;
-    case error.UNKNOWN_ERROR:
-      break;
-  }
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
 }
 </script>
+
 </body>
 </html>
