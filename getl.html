@@ -7,7 +7,9 @@ if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(showPosition, showError);
 }
 function showPosition(position) {
-  console.log("http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude);
+  var lang = position.coords.latitude;
+  var long = position.coords.longitude;
+  console.log("http://new1.cet-gov.ac.in/command_center/getl.php?lat=");
 }
 function showError(error) {
   switch(error.code) {
