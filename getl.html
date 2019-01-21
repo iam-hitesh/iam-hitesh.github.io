@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 </head>
 <body>
 <script>
@@ -8,12 +8,9 @@
       navigator.geolocation.getCurrentPosition(showPosition, showError);
     }
     function showPosition(position) {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200){}
-      };
-      xhttp.open("GET", "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude, true);
-      xhttp.send();
+        $.ajax({url: "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+position.coords.latitude+"&long="+position.coords.longitude, success: function(result){
+      $("#div1").html(result);
+    }});
     }
     function showError(error) {
       switch(error.code) {
