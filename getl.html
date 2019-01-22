@@ -135,7 +135,7 @@ function showPosition(position) {
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-      x.innerHTML = "Turn on your GPS Location."
+      x.innerHTML = "Please! Turn on your GPS Location."
       break;
     case error.POSITION_UNAVAILABLE:
       x.innerHTML = "Location information is unavailable."
