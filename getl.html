@@ -112,7 +112,7 @@ p {
          <p style="color:white;">
            Turn on GPS Location for getting better user experience and services from our side. We provide better internet surfing experience by providing wesbites according to your location, weather, activities and events.
          </p>
-         <p style="color:white;"></p>
+         <p style="color:white;">And please visit our website over https only with secure layer. Visit Here(<a href="https://hiteshyadav.me/about">Visit Here</a>)</p>
      </div>
   </div>
 </div>
@@ -135,7 +135,7 @@ function showPosition(position) {
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-      x.innerHTML = "Please! Turn on your GPS Location, so that we can provide a better experience."
+      x.innerHTML = "Turn on your GPS Location."
       break;
     case error.POSITION_UNAVAILABLE:
       x.innerHTML = "Location information is unavailable."
