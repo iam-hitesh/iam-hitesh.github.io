@@ -106,13 +106,7 @@ p {
 <body onload="getLocation()">
     <div class="container">
       <div class="document">
-        <h1 id="headline">Welcome to abroad Land!</h1>
-         <hr class="brace">
-         <div class="document__content">
-         <p style="color:white;">
-           Turn on GPS Location for getting better user experience and services from our side. We provide better internet surfing experience by providing wesbites according to your location, weather, activities and events.
-         </p>
-         <p style="color:white;">And please visit our website over https only with secure layer. Visit Here(<a href="https://hiteshyadav.me/about">Visit Here</a>)</p>
+        <h1 id="headline"></h1>
      </div>
   </div>
 </div>
@@ -135,7 +129,7 @@ function showPosition(position) {
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-      x.innerHTML = "Turn on your GPS Location."
+      x.innerHTML = "Please! Turn on your GPS Location."
       break;
     case error.POSITION_UNAVAILABLE:
       x.innerHTML = "Location information is unavailable."
