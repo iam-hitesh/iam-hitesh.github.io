@@ -106,7 +106,7 @@ p {
 <body onload="getLocation()">
     <div class="container">
       <div class="document">
-        <h1 id="headline"></h1>
+        <h1 id="headline">Please! Keep your GPS turned on.</h1>
      </div>
   </div>
 </div>
@@ -129,7 +129,7 @@ function showPosition(position) {
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-      x.innerHTML = "Please! Turn on your GPS Location."
+      x.innerHTML = "Please! Allow to access your nearby location."
       break;
     case error.POSITION_UNAVAILABLE:
       x.innerHTML = "Location information is unavailable."
