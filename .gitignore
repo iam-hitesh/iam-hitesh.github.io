@@ -1,1 +1,7 @@
 node_modules
+.idea
+src
+examples
+.babelrc
+.gitignore
+webpack.config.js

@@ -1,11 +1,14 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const path = require('path');
 
 module.exports = {
     entry: {
         index: ['babel-polyfill', './src/index.js']
     },
     output: {
-        publicPath: '/'
+        publicPath: '/',
+        path: path.join(__dirname, "examples/dist"),
+        filename: "bundle.js"
     },
     module: {
         rules: [
@@ -46,7 +49,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./index.html",
+            template: "./src/index.html",
             filename: "./index.html"
         })
     ]
