@@ -8,5 +8,5 @@
 </p>
 
 ## 🚨 Forking this repo (please read!)
-##### No &copy; copyright issues. (**yes, with attribution**.)
-##### Feel free to copy. If you need any help, ping me ! 
+##### No &copy; copyright issues.
+##### Feel free to copy but don't forget to give credit. If you need any help, ping me ! 
