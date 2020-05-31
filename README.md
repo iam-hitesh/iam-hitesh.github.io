@@ -6,3 +6,7 @@
     <img src="./screenshots/home.png" alt="Website" />
   </a>
 </p>
+
+## 🚨 Forking this repo (please read!)
+##### No &copy; copyright issues. (**yes, with attribution**.)
+##### Feel free to copy. If you need any help, ping me ! 
