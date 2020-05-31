@@ -3,6 +3,6 @@
 </h1>
 <p align="center">
   <a href="http://hiteshyadav.me" target="_blank">
-    <img src="./screenshots/homepage.png" alt="Website" />
+    <img src="./screenshots/home.png" alt="Website" />
   </a>
 </p>
