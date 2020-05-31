@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "company": "Instahyre",
+    "full_name":  "Blob Infotech Pvt. Ltd.",
+    "title": "Full Stack Developer",
+    "range": "Aug 2019 - Present",
+    "work": "<ul><li>Splitting up our monolithic architecture into microservices, while refactoring the codebase and introducing modern code practices.</li><li>Developed and maintained code for in-house &amp; client facing product and dashboard primarily using HTML, CSS, AngularJS, JavaScript, jQuery, Django, Python &amp;amp; Go</li><li>Optimized internal dashboard by almost 5 fold using different optimization techniques like DB indexing, async tasks, caching, etc.</li></ul>",
+    "url": "https://instahyre.com"
+  },
+  {
+    "id": 2,
+    "company": "Twango",
+    "full_name": "Twango Social Network",
+    "title": "Backend Developer Intern",
+    "range": "Jan - Apr 2019",
+    "work": "<ul>\n<li>Architected &amp; Developed a Multi-functional B2B platform using React.js, Python(Django), JavaScript, jQuery &amp; REST.</li>\n<li>Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>\n<li>Write selenium script using Python for automated testing for websites, this saves a a lot of time wasted due to manual testing.</li>\n<li>Used Selenium ChromeDriver and Python to scrape data from other websites and integrate into the dashboard.</li>\n</ul>",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "company": "BTU",
+    "full_name":  "Bikaner Technical University",
+    "title": "Full Stack Developer",
+    "range": "Aug - Dec 2018",
+    "work": "<ul>\n<li>Collaborated with a small team of student developers to spearhead beta version of student management system and university website(initial version) primarily using HTML, CSS, React.js, JavaScript, jQuery, Django, Python, REST &amp;amp; AWS.</li>\n<li>Developed and maintained code for university and college website.</li>\n  <li>Make fee submission from offline to online by intergrating third party payment gateway intergration for payment management and collecting.</li>\n<li><a href=\"http://cet-gov.ac.in/web/developers?ref=header\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">For More</a></li>\n</ul>",
+    "url": "https://btu.ac.in"
+  },
+  {
+    "id": 4,
+    "company": "IIT Bombay",
+    "full_name":  "IIT Bombay",
+    "title": "Research Intern",
+    "range": "May - July 2018",
+    "work": "<ul>\n<li>Worked on Compiler construction focused on Pointer Analysis and Data Flow analysis using PLY Library(Python LEX and YACC) and Shell Scripting.</li>\n<li>Write shell scripting for automating the working of AST generator.</li>\n<li>Learn about the Program analysis and how to understand the data flow and control flow of any software after reversing it.\n</li>\n</ul>",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "company": "Legal Bank",
+    "full_name": "The Legal Bank",
+    "title": "Software Engineer Intern",
+    "range": "Jan – March 2018",
+    "work": "<ul>\n<li>Worked on AWS services to create B2B platform using ReactJS and Node.js</li>\n  <li>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>\n<li>Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness\n</li>\n</ul>",
+    "url": "https://thelegalbank.com/"
+  },
+  {
+    "id": 6,
+    "company": "Cyberops",
+    "full_name": "Cyberops Infosec LLP",
+    "title": "Information Security Analyst Intern",
+    "range": "Dec – March 2017 ",
+    "work": "<ul><li>Learn and Worked on Web Application Penetration Testing, Vulnerability Assessment and reversing software's.</li></ul>",
+    "url": "https://cyberops.in/"
+  }
+]

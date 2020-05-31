@@ -1,0 +1,57 @@
+{
+  "name": "iam-hitesh.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-hitesh/iam-hitesh.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "portfolio",
+    "website",
+    "Hitesh",
+    "yadav",
+    "hitesh",
+    "yadav"
+  ],
+  "author": "iam-hitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam-hitesh/iam-hitesh.github.io/issues"
+  },
+  "homepage": "https://github.com/iam-hitesh/iam-hitesh.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-transform-arrow-functions": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.12.21"
+  }
+}
