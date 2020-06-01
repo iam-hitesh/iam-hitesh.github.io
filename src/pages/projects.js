@@ -14,6 +14,7 @@ class Projects extends React.Component{
         super(props);
 
         this.state = {
+            isLoading: true,
             projects: null
         }
     }
@@ -22,7 +23,8 @@ class Projects extends React.Component{
         gerProjects().then((projects) => {
             const unforkedProjects = projects.data.filter(project => !project.fork);
             this.setState({
-               projects: unforkedProjects,
+                projects: unforkedProjects,
+                isLoading: false
             });
         })
     }
@@ -38,6 +40,18 @@ class Projects extends React.Component{
 
                                 <div className="container">
                                     <div className="card-columns">
+                                        {
+                                            this.state.isLoading ? (
+                                                <div className="sk-chase">
+                                                    <div className="sk-chase-dot"></div>
+                                                    <div className="sk-chase-dot"></div>
+                                                    <div className="sk-chase-dot"></div>
+                                                    <div className="sk-chase-dot"></div>
+                                                    <div className="sk-chase-dot"></div>
+                                                    <div className="sk-chase-dot"></div>
+                                                </div>
+                                            ) : ("")
+                                        }
                                         {
                                             this.state.projects && this.state.projects.map((project, id) => {
                                                 return(
