@@ -12,7 +12,7 @@ const Navbar = () => {
                     <li><Link to={`/projects`}>Projects</Link></li>
                     <li><Link to={`/skills`}>Skills</Link></li>
                     <li><a href="https://medium.com/@ihitesh" target="-_blank" rel="nofollow noopener noreferrer">Blog</a></li>
-                    <li><a href="https://github.com/iam-hitesh/resume.pdf" target="-_blank" rel="nofollow noopener noreferrer">Resume</a></li>
+                    <li><a href="https://github.com/iam-hitesh/iam-hitesh.github.io/raw/master/resume.pdf" target="-_blank" rel="nofollow noopener noreferrer">Resume</a></li>
                     <li><Link to={`/contact`}>Contact &amp; Credits</Link></li>
                 </ol>
             </div>
