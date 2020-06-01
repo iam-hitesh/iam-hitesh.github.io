@@ -516,7 +516,7 @@ footer{
 	height: 40px;
 	position: relative;
 	animation: sk-chase 2.5s infinite linear both;
-	margin: 50%;
+	margin: 35%;
 }
 
 .sk-chase-dot {
