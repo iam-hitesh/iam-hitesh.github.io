@@ -7,9 +7,10 @@
     "start": "webpack-dev-server --open --hot --mode development",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run transpile",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.config.prod.js",
     "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && npm run deploy"
+    "publish-demo": "npm run build && npm run deploy",
+    "analyze": "source-map-explorer examples/dist/*.js"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-polyfill": "^6.26.0",
+    "compression-webpack-plugin": "^4.0.0",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
