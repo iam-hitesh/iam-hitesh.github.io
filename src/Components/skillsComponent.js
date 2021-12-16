@@ -1,6 +1,7 @@
 import React from "react";
 
 import PythonIcon from "../assets/images/skills/python.svg";
+import JavaIcon from "../assets/images/skills/java.png";
 import GoIcon from "../assets/images/skills/golang.svg";
 import CppIcon from "../assets/images/skills/c++.svg";
 import JavascriptIcon from "../assets/images/skills/javascript.svg";
@@ -23,6 +24,11 @@ const skills = [
         "id": 1,
         "title": "Python",
         "icon": PythonIcon
+    },
+    {
+        "id": 21,
+        "title": "Java",
+        "icon": JavaIcon
     },
     {
         "id": 2,

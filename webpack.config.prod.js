@@ -45,9 +45,8 @@ module.exports = {
         ]
     },
     devServer: {
-        publicPath:'/',
         historyApiFallback: true,
-        contentBase: './',
+        static: './',
         hot: true
     },
     plugins: [
