@@ -6,7 +6,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.js',]
+        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.html.js',]
     },
     output: {
         publicPath: '/',
@@ -51,8 +51,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
+            template: "./src/index.html.html",
+            filename: "./index.html.html"
         }),
         new webpack.DefinePlugin({
             'process.env': {
