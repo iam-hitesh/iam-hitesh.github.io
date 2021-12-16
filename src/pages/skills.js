@@ -1,9 +1,9 @@
 import React from "react";
 
-import SkillsComponent from "../components/skillsComponent";
+import SkillsComponent from "../Components/SkillsComponent";
 
 
-const Skills = (props) => {
+const Skills = () => {
     return (
         <div className="col-lg-12">
             <div className="row justify-content-md-center">

@@ -4,7 +4,7 @@ import { HashRouter } from "react-router-dom";
 
 import Routes from "./routes";
 import Sidebar from "./components/sidebar";
-import Navbar from "./components/navbar";
+import Navbar from "./Components/Navbar";
 
 import './assets/css/default.css';
 
