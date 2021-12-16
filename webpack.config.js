@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.html.js',]
+        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.html',]
     },
     output: {
         publicPath: '/',
@@ -48,8 +48,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html.html",
-            filename: "./index.html.html"
+            template: "./src/index.html",
+            filename: "./index.html"
         })
     ]
 };
