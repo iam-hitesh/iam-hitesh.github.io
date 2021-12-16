@@ -6,11 +6,11 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: ['babel-polyfill', './src/index.js']
+        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.js',]
     },
     output: {
         publicPath: '/',
-        path: path.join(__dirname, "dist"),
+        path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"
     },
     module: {
