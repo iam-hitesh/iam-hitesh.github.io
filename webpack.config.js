@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.html',]
+        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.js',]
     },
     output: {
         publicPath: '/',
@@ -44,7 +44,7 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         static: './',
-        hot: true
+        hot: true,
     },
     plugins: [
         new HtmlWebPackPlugin({

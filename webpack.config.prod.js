@@ -6,7 +6,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.html',]
+        index: ['babel-polyfill', path.resolve(__dirname, 'src') + '/index.js',]
     },
     output: {
         publicPath: '/',
