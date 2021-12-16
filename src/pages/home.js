@@ -1,9 +1,6 @@
 import React from "react";
 
-import Navbar from "../components/navbar";
-
-
-const Home = (props) => {
+const Home = () => {
     return (
         <div className="col-lg-12">
             <div className="row justify-content-md-center">
@@ -22,8 +19,8 @@ const Home = (props) => {
                             <div className="about-details">
                                 <p>I'm a software engineer based in New Delhi, INDIA specializing in building
                                     (and occasionally designing) exceptional websites, applications, and
-                                    everything in between. I am having a great interest in Information Security &amp;amp; Machine Learning, I love making things, learning and exploring new things, collaborating and solving different kind of problems.</p>
-                                <p>Shortly after graduating, I joined the engineering team at Instahyre where I work on a optimizing and maintaining the current code along with adding new features.</p>
+                                    everything in between. I am having a great interest in Information Security &amp;amp; Systems, I love making things, learning and exploring new things, collaborating and solving different kind of problems.</p>
+                                <p>Currently, I am a part of the engineering team at GreenLight Planet where I work on building and maintaining new services for the existing projects along with adding new features.</p>
                             </div>
                         </div>
                     </div>

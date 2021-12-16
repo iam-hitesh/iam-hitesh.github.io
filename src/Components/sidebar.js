@@ -46,8 +46,8 @@ const Sidebar = (props) => {
             <ul className="other-details">
                 <li>
                     <img src={ MailIcon } width="20px" alt="email-icon"/>
-                    <a href="mailto:hhiteshyadav@gmail.com" className="mail-h4 ml-2">
-                         hhiteshyadav@gmail.com
+                    <a href="mailto:hi@hiteshyadav.in" className="mail-h4 ml-2">
+                        hi@hiteshyadav.in
                     </a>
                 </li>
                 <li>

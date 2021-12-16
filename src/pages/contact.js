@@ -1,9 +1,6 @@
 import React from "react";
 
-import SkillsComponent from "../components/skillsComponent";
-
-
-const Contact = (props) => {
+const Contact = () => {
     return (
         <div className="col-lg-12">
             <div className="row justify-content-md-center">
@@ -14,7 +11,7 @@ const Contact = (props) => {
                     <p className="content">
                         Want to discuss any project or whether you have a question or just want to say hi, ping me I'll try my best to get back to you!
                     </p>
-                    <a href="mailto:hhiteshyadav@gmail.com" target="_blank" rel="nofollow noopener noreferrer" className="btn contact-btn">
+                    <a href="mailto:hi@hiteshyadav.in" target="_blank" rel="nofollow noopener noreferrer" className="btn contact-btn">
                         Say Hello
                     </a>
                 </div>

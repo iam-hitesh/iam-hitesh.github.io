@@ -49,7 +49,7 @@ const StyledJobDetails = styled.h5`
 `;
 
 
-const Experience = (props) => {
+const Experience = () => {
     const [activeTabId, setActiveTabId] = useState(0);
 
     return (

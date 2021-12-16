@@ -9,7 +9,6 @@ import Contact from "./pages/contact";
 import NotFound from "./pages/home";
 
 
-
 const Routes = () => (
     <Suspense fallback={<div>Loading...</div>}>
             <Switch>
