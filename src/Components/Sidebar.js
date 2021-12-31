@@ -56,7 +56,7 @@ const Sidebar = (props) => {
                 </li>
             </ul>
             <hr/>
-            <a href="https://github.com/iam-hitesh/iam-hitesh.github.io/raw/master/resume.pdf" rel="nofollow noopener noreferrer">
+            <a href="https://github.com/iam-hitesh/iam-hitesh.github.io/raw/master/Hitesh_Yadav_Full_Stack_Developer_2_Years.pdf" rel="nofollow noopener noreferrer">
                 <button className="btn btn-primary resume-btn">
                     Resume
                 </button>

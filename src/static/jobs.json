@@ -5,7 +5,7 @@
     "full_name":  "GreenLight Planet India Pvt. Ltd.",
     "title": "Software Engineer",
     "range": "July 2021 - Present",
-    "work": "<ul><li>Setup centralised Elasticsearch cluster for improving partial search and auto\nsuggestion provided to users by almost 50%.</li><li>Worked on setting up centralised user management and Authentication\nservices for other applications along with setting up the MicroServices</li><li>Optimized internal dashboard by almost 5 fold using different optimization techniques like DB indexing, async tasks, caching, etc.</li></ul>",
+    "work": "<ul><li>Setup centralised Elasticsearch cluster for improving partial search and auto\nsuggestion provided to users by almost 50%.</li><li>Worked on setting up centralised user management and Authorization \nservices for other applications along with setting up the MicroServices.</li><li>Tech Stack:  Python(Flask and Django), Java, PostgreSQL, Elasticsearch, MongoDB, OPA(Open Policy Agent), Grafana, RabbitMQ and AWS(EC2 and SQS).</li></ul>",
     "url": "https://www.greenlightplanet.com/"
   },
   {
@@ -14,7 +14,7 @@
     "full_name":  "Actartly Technology Pvt. Ltd.",
     "title": "Founding Engineer",
     "range": "Feb 2020 - July 2021",
-    "work": "<ul><li>Worked as initial engineer in setting up different applications along with\ncreating services for internal analytics dashboard, setting up centralized\nmessaging and logging services</li></ul>",
+    "work": "<ul><li>Worked as initial engineer and developed internal analytics and consumer facing dashboards.<li><li>Worked on setting up centralized messaging, notification, email and logging services</li><li>Worked with Integration with third party API's like Whatsapp(Gupshup) API, Shopify API's and Webhooks, Facebook and Instagram API</li><li><b>Tech Stack:  </b>Javascript(Node.js & React.js), PostgreSQL, Redis, MongoDB and AWS(EC2, SQS, ElastiCache, S3, Cloudfront and Lambda)</li></ul>",
     "url": "https://www.bitespeed.co/"
   },
   {
@@ -23,7 +23,7 @@
     "full_name":  "Blob InfoTech Pvt. Ltd.",
     "title": "Full Stack Developer",
     "range": "Aug 2019 - June 2020",
-    "work": "<ul><li>Splitting up our monolithic architecture into microservices, while refactoring the codebase and introducing modern code practices.</li><li>Developed and maintained code for in-house &amp; client facing product and dashboard primarily using HTML, CSS, AngularJS, JavaScript, jQuery, Django, Python &amp;amp; Go</li><li>Optimized internal dashboard by almost 5 fold using different optimization techniques like DB indexing, async tasks, caching, etc.</li></ul>",
+    "work": "<ul><li>Splitting up our monolithic architecture into microservices, while refactoring the codebase and introducing modern code practices.</li><li>Developed and maintained code for in-house &amp; client facing products and dashboard.</li><li>Optimized internal dashboard by almost 5 fold using different optimization techniques like DB indexing, async tasks, caching, etc.</li><li>Tech Stack: HTML, CSS, AngularJS, JavaScript, jQuery, Python(Django), RabbitMQ, MySQL and Elasticsearch.</li></ul>",
     "url": "https://instahyre.com"
   },
   {
@@ -32,7 +32,7 @@
     "full_name":  "Bikaner Technical University",
     "title": "Full Stack Developer",
     "range": "Aug - Dec 2018",
-    "work": "<ul>\n<li>Collaborated with a small team of student developers to spearhead beta version of student management system and university website(initial version) primarily using HTML, CSS, React.js, JavaScript, jQuery, Django, Python, REST &amp;amp; AWS.</li>\n<li>Developed and maintained code for university and college website.</li>\n  <li>Make fee submission from offline to online by intergrating third party payment gateway intergration for payment management and collecting.</li>\n<li><a href=\"http://cet-gov.ac.in/web/developers?ref=header\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">For More</a></li>\n</ul>",
+    "work": "<ul>\n<li>Collaborated with a small team of student developers to spearhead beta version of student management system and university website(initial version) primarily using HTML, CSS, React.js, JavaScript, jQuery, Django, Python, REST &amp;amp; AWS.</li>\n<li>Developed and maintained code for university and college website.</li>\n  <li>Make fee submission from offline to online by integrating third party payment gateway integration for payment management and collecting.</li>\n<li><a href=\"http://cet-gov.ac.in/web/developers?ref=header\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">For More</a></li>\n</ul>",
     "url": "https://btu.ac.in"
   },
   {
