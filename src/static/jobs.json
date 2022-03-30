@@ -5,7 +5,7 @@
     "full_name":  "GreenLight Planet India Pvt. Ltd.",
     "title": "Software Engineer",
     "range": "July 2021 - Present",
-    "work": "<ul><li>Setup centralised Elasticsearch cluster for improving partial search and auto\nsuggestion provided to users by almost 50%.</li><li>Worked on setting up centralised user management and Authorization \nservices for other applications along with setting up the MicroServices.</li><li>Tech Stack:  Python(Flask and Django), Java, PostgreSQL, Elasticsearch, MongoDB, OPA(Open Policy Agent), Grafana, RabbitMQ and AWS(EC2 and SQS).</li></ul>",
+    "work": "<ul><li>Setup centralized authorization engine and service that will be used to authorize request for different microservices in under 100ms,\nthat will reduce the latency for each requests.</li><li>Setup centralised Elasticsearch cluster for improving partial search and auto\nsuggestion provided to users by almost 50%.</li><li>Worked on setting up centralised user management and Authorization \nservices for other applications along with setting up the MicroServices.</li><li>Tech Stack:  Golang, Python(Flask and Django), Java, PostgreSQL, Elasticsearch, MongoDB, OPA(Open Policy Agent), Grafana, RabbitMQ and AWS(EC2 and SQS).</li></ul>",
     "url": "https://www.greenlightplanet.com/"
   },
   {
@@ -13,7 +13,7 @@
     "company": "BiteSpeed",
     "full_name":  "Actartly Technology Pvt. Ltd.",
     "title": "Founding Engineer",
-    "range": "Feb 2020 - July 2021",
+    "range": "Feb 2021 - July 2021",
     "work": "<ul><li>Worked as initial engineer and developed internal analytics and consumer facing dashboards.<li><li>Worked on setting up centralized messaging, notification, email and logging services</li><li>Worked with Integration with third party API's like Whatsapp(Gupshup) API, Shopify API's and Webhooks, Facebook and Instagram API</li><li><b>Tech Stack:  </b>Javascript(Node.js & React.js), PostgreSQL, Redis, MongoDB and AWS(EC2, SQS, ElastiCache, S3, Cloudfront and Lambda)</li></ul>",
     "url": "https://www.bitespeed.co/"
   },
